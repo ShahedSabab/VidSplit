@@ -1,0 +1,35 @@
+{
+  "name": "hci_project_node",
+  "version": "1.0.0",
+  "description": "This is the backend code for our tutorial workflow detection project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayhanShikder/HCI_Project_Node.git"
+  },
+  "keywords": [
+    "HCI",
+    "Workflow",
+    "Detection",
+    "Tutorial",
+    "Nodejs"
+  ],
+  "author": "Rayhan Shikder, Shahed Anzarus Sabab, Cheng Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayhanShikder/HCI_Project_Node/issues"
+  },
+  "homepage": "https://github.com/RayhanShikder/HCI_Project_Node#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.0"
+  }
+}
